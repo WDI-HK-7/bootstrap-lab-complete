@@ -11,9 +11,9 @@
 
     <title>The Next Web</title>
 
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
 
     <script src="js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
 
@@ -53,16 +53,75 @@
       <div class="row">
         <div class="sidebar visible-lg col-lg-3">
           <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
+            <li class="col-lg-12">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdown_all_channels" data-toggle="dropdown" aria-expanded="true">
+                  <span class="col-lg-11">ALL CHANNELS</span>
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Test</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="col-lg-12 sidebar-button-group">
+              <button class="btn btn-default col-lg-6"> LATEST</button>
+              <button class="btn btn-default col-lg-6"> POPULAR</button>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/beauty.png" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/dress.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/fireshot.png" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/kits.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
+            <li class="col-lg-12 article-thumbnail-item">
+              <div class="col-lg-3 thumbnail-picture">
+                <img src="images/sidebar/square.jpg" class="img-responsive">
+              </div>
+              <div class="col-lg-9 thumbnail-title">
+                <h5>9 Myths About Social Media at Work</h5>
+                <h5>33 minutes ago</h5>
+              </div>
+            </li>
           </ul>
         </div>
-        <div class="col-sm-12 main wrapping col-lg-9">
-          <div class="hidden-xs col-sm-12 text-center">
+        <div class="col-sm-12 col-lg-9 main wrapping">
+          <div class="hidden-xs col-sm-12 text-center main-message">
             Support TNW - <a href="#">become Pro</a> and we can ditch the banners.
           </div>
-          <div class="col-xs-12 col-sm-12 content-background">
+          <div class="col-xs-12 content-background">
             <div class="col-xs-12 col-sm-8">
               <img src="images/main/square.jpg" class="img-responsive">
               By BEN WOODS – 20 Nov' 14
