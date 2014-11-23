@@ -24,19 +24,51 @@
   }
 }*/
 
+a{
+  color: #ef4423;
+}
+
+body{
+  color: #4e5860;
+  font-family: sans-serif;
+}
+
+.sidebar{
+  background-color: white;
+}
+
 .wrapping{
   background-color: #f8f9fa;
 }
 
 .content-background{
   background-color: white;
-  border: 2px solid;
+  border: 2px solid #eceff0;
 }
 
 .navbar-default{
   background-color: white;
+  border-bottom: 2px solid #d9e0e2;
 }
 
 .img-responsive{
   width: 100%;
+}
+
+@media(max-width:767px){
+  .wrapping{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media(min-width:1200px){
+  .sidebar{
+    width: 315.250px;
+  }
+
+  .main{
+    margin-left: 315.250px;
+    width: auto;
+  }
 }
