@@ -1,1 +1,42 @@
 /* You can include your custom styling here */
+
+/*@media(max-width:767px){
+  .class-name{
+    font-size: 10px;
+  }
+}
+
+@media(min-width:768px){
+  .class-name{
+    font-size: 50px;
+  }
+}
+
+@media(min-width:992px){
+  .class-name{
+    font-size: 100px;
+  }
+}
+
+@media(min-width:1200px){
+  .class-name{
+    font-size: 500px;
+  }
+}*/
+
+.wrapping{
+  background-color: #f8f9fa;
+}
+
+.content-background{
+  background-color: white;
+  border: 2px solid;
+}
+
+.navbar-default{
+  background-color: white;
+}
+
+.img-responsive{
+  width: 100%;
+}
