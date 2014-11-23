@@ -76,6 +76,15 @@ body{
   margin: 10px auto;
 }
 
+.dropdown-icon{
+  font-size: 25px;
+}
+
+#followbar{
+  background-color: #2a3540;
+  color: white;
+}
+
 @media(max-width:767px){
   .wrapping{
     padding-left: 0;
