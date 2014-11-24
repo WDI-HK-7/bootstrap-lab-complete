@@ -85,6 +85,11 @@ body{
   color: white;
 }
 
+.dropdown-menu{
+  width: 400px;
+  background-color: #2a3540;
+}
+
 @media(max-width:767px){
   .wrapping{
     padding-left: 0;
