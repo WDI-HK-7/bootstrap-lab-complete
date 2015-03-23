@@ -100,6 +100,12 @@ body {
   background-color: white;
 }
 
+.dropdown-menu-xs {
+  width: 400px;
+  display: inline-block;
+  background-color: #2a3540;
+}
+
 .dropdown-menu-xs > li > a {
   color: white;
   text-align: center;
