@@ -85,23 +85,38 @@ body {
   color: white;
 }
 
-.dropdown-menu {
+.dropdown-menu-lg {
   width: 400px;
   background-color: #2a3540;
 }
 
+.dropdown-menu-lg > li > a {
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.dropdown-menu-lg > li > a:hover {
+  background-color: white;
+}
+
+.dropdown-menu-xs > li > a {
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
 .channel-dropdown-menu {
-  width: 400px;
-  background-color: #2a3540;
+  width: 285px;
 }
 
 .navbar-form {
   margin-right: 5px;
 }
 
-#navbar > .nav-items > li:hover {
+#navbar > .nav-items > li > a:hover {
   color: red;
-  border-bottom: 2px solid red;
+  /*border-bottom: 2px solid red;*/
 }
 
 @media(max-width:767px) {
