@@ -120,9 +120,14 @@ body {
   margin-right: 5px;
 }
 
+.navbar-left {
+  position: absolute;
+  left: 100px;
+}
+
 #navbar > .nav-items > li > a:hover {
   color: red;
-  /*border-bottom: 2px solid red;*/
+  border-bottom: 2px solid red;
 }
 
 @media(max-width:767px) {
